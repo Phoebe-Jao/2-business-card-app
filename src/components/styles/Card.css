@@ -1,0 +1,6 @@
+.card {
+    margin: 2em;
+    background-color: hsl(231, 12%, 12%);
+    max-width: 317px;
+    border-radius: 10px;
+}

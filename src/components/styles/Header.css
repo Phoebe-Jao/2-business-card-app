@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.header > .header--image {
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    margin-bottom: 1em;
+    border-radius: 10px 10px 0 0;
+}
+
+.header > .header--name {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: .1em 0;
+}
+
+.header > .header--job {
+    color: hsl(25, 79%, 78%);
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: .5em;
+}
+
+.header > .header--contact {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+.header > .header--button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin: 1.2em 0;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: .6em;
+    width: 80%;
+    cursor: pointer;
+}

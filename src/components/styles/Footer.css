@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(254, 6%, 58%);
+    background-color: hsl(240, 6%, 9%);
+    margin-top: 1.4em;
+    padding: .3em 0;
+    gap: 0.5em;
+    font-size: 2rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer--icon {
+    cursor: pointer;
+}
